@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT
+END
+READS3M.C
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/READS3M.C
+END
+ITUNLOAD.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/ITUNLOAD.C
+END
+LOADMOD.C
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/LOADMOD.C
+END
+READXM.C
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/READXM.C
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/vssver2.scc
+END
+XMEFFECT.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/XMEFFECT.C
+END
+LOADS3M.C
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/LOADS3M.C
+END
+LOADXM.C
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/LOADXM.C
+END
+ITMISC.C
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/ITMISC.C
+END
+ITORDER.C
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/ITORDER.C
+END
+ITREAD.C
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/ITREAD.C
+END
+READMOD.C
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/READMOD.C
+END
+ITLOAD.C
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/ITLOAD.C
+END
+ITRENDER.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/IT/ITRENDER.C
+END

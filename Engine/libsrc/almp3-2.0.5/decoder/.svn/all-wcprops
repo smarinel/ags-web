@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder
+END
+layer2.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/layer2.c
+END
+mpg123.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/mpg123.h
+END
+layer3.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/layer3.c
+END
+mpglib.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/mpglib.h
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/interface.c
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/vssver2.scc
+END
+common.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/common.c
+END
+huffman.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/huffman.h
+END
+tabinit.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/tabinit.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/README
+END
+decode_i386.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/decode_i386.c
+END
+dct64_i386.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/dct64_i386.c
+END
+l2tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/almp3-2.0.5/decoder/l2tables.h
+END

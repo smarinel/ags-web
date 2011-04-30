@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE
+END
+ATEXIT.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/ATEXIT.C
+END
+MAKEDUH.C
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/MAKEDUH.C
+END
+DUHLEN.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/DUHLEN.C
+END
+LOADDUH.C
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/LOADDUH.C
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/vssver2.scc
+END
+UNLOAD.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/UNLOAD.C
+END
+REGISTER.C
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/REGISTER.C
+END
+DUMBFILE.C
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/DUMBFILE.C
+END
+RENDDUH.C
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/RENDDUH.C
+END
+RENDSIG.C
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/RENDSIG.C
+END
+RAWSIG.C
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/RAWSIG.C
+END
+READDUH.C
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/CORE/READDUH.C
+END

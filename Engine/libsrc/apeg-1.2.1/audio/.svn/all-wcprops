@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio
+END
+layer2.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/layer2.c
+END
+layer3.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/layer3.c
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/vssver2.scc
+END
+audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/audio.c
+END
+dct64.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/dct64.c
+END
+apegcommon.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/apegcommon.c
+END
+readers.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/readers.c
+END
+decode_1to1.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/decode_1to1.c
+END
+decode_2to1.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/decode_2to1.c
+END
+mpg123.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/mpg123.c
+END
+decode_4to1.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/decode_4to1.c
+END
+tabinit.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/tabinit.c
+END
+vbrhead.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/vbrhead.c
+END
+layer1.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/apeg-1.2.1/audio/layer1.c
+END

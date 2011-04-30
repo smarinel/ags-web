@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS
+END
+MEMFILE.C
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/MEMFILE.C
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/vssver2.scc
+END
+SILENCE.C
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/SILENCE.C
+END
+RESAMPLE.C
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/RESAMPLE.C
+END
+CLICKREM.C
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/CLICKREM.C
+END
+STDFILE.C
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/STDFILE.C
+END
+SAMPBUF.C
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ags/!svn/ver/44/trunk/Engine/libsrc/dumb-0.9.2/HELPERS/SAMPBUF.C
+END
