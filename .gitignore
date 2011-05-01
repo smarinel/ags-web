@@ -1,0 +1,10 @@
+.gitignore # ignore yourself...
+
+# ignore output directories
+Engine/Release/
+Engine/acwin___Win32_DebugWorking/
+
+# ignore visual studio generated files -- for local use only!
+*.ncb
+*.suo
+*.vcproj*
