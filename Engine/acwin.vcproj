@@ -5,9 +5,6 @@
 	Name="acwin"
 	ProjectGUID="{0FAE0543-C09B-43CE-AEE1-D68FA8B33276}"
 	RootNamespace="acwin"
-	SccProjectName="&quot;$/ags/acwin&quot;, PAAAAAAA"
-	SccLocalPath="."
-	SccProvider="MSSCCI:Microsoft Visual SourceSafe"
 	TargetFrameworkVersion="0"
 	>
 	<Platforms>
@@ -2970,14 +2967,6 @@
 							PreprocessorDefinitions=""
 						/>
 					</FileConfiguration>
-				</File>
-			</Filter>
-			<Filter
-				Name="libcda"
-				>
-				<File
-					RelativePath=".\libsrc\libcda-0.4\libcdaWin.C"
-					>
 				</File>
 			</Filter>
 			<Filter

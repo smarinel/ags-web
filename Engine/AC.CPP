@@ -616,7 +616,6 @@ HWND editor_window_handle = NULL;
 
 int in_enters_screen=0,done_es_error = 0;
 int in_leaves_screen = -1;
-int need_to_stop_cd=0;
 int debug_15bit_mode = 0, debug_24bit_mode = 0;
 int said_text = 0;
 int convert_16bit_bgr = 0;
@@ -683,7 +682,6 @@ int sprlistsize=0;
 #define MAX_THINGS_TO_DRAW 125
 SpriteListEntry thingsToDrawList[MAX_THINGS_TO_DRAW];
 int thingsToDrawSize = 0;
-int use_cdplayer=0;
 bool triedToUseCdAudioCommand = false;
 int final_scrn_wid=0,final_scrn_hit=0,final_col_dep=0;
 int post_script_cleanup_stack = 0;
@@ -787,7 +785,6 @@ void stop_speech();
 int  play_sound (int);
 int  play_sound_priority (int, int);
 int  __Rand(int);
-int  cd_manager(int,int);
 int  DisplaySpeechBackground(int,char*);
 void MergeObject(int);
 void script_debug(int,int);
@@ -9229,9 +9226,6 @@ void quit(char*quitmsg) {
   our_eip = 9900;
   stop_recording();
 
-  if (need_to_stop_cd)
-    cd_manager(3,0);
-
   our_eip = 9020;
   ccUnregisterAllObjects();
 
@@ -9256,9 +9250,6 @@ void quit(char*quitmsg) {
     screen = _old_screen;
 
   platform->FinishedUsingGraphicsMode();
-
-  if (use_cdplayer)
-    platform->ShutdownCDPlayer();
 
   our_eip = 9917;
   game.options[OPT_CROSSFADEMUSIC] = 0;
@@ -21145,26 +21136,6 @@ void script_debug(int cmdd,int dataa) {
   else quit("!Debug: unknown command code");
 }
 
-
-int init_cd_player() 
-{
-  use_cdplayer=0;
-  return platform->InitializeCDPlayer();
-}
-
-int cd_manager(int cmdd,int datt) 
-{
-  if (!triedToUseCdAudioCommand)
-  {
-    triedToUseCdAudioCommand = true;
-    init_cd_player();
-  }
-  if (cmdd==0) return use_cdplayer;
-  if (use_cdplayer==0) return 0;  // ignore other commands
-
-  return platform->CDPlayerCommand(cmdd, datt);
-}
-
 void script_SetTimer(int tnum,int timeout) {
   if ((tnum < 1) || (tnum >= MAX_TIMERS))
     quit("!StartTimer: invalid timer number");
@@ -24879,7 +24850,6 @@ void setup_script_exports() {
   scAdd_External_Symbol("AreObjectsColliding",(void *)AreObjectsColliding);
   scAdd_External_Symbol("AreThingsOverlapping",(void *)AreThingsOverlapping);
   scAdd_External_Symbol("CallRoomScript",(void *)CallRoomScript);
-  scAdd_External_Symbol("CDAudio",(void *)cd_manager);
   scAdd_External_Symbol("CentreGUI",(void *)CentreGUI);
   scAdd_External_Symbol("ChangeCharacterView",(void *)ChangeCharacterView);
   scAdd_External_Symbol("ChangeCursorGraphic",(void *)ChangeCursorGraphic);

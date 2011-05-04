@@ -50,21 +50,18 @@ struct AGSWin32 : AGS32BitOSDriver {
   AGSWin32();
 
   virtual void AboutToQuitGame();
-  virtual int  CDPlayerCommand(int cmdd, int datt);
   virtual void Delay(int millis);
   virtual void DisplayAlert(const char*, ...);
   virtual const char *GetAllUsersDataDirectory();
   virtual unsigned long GetDiskFreeSpaceMB();
   virtual const char* GetNoMouseErrorString();
   virtual eScriptSystemOSID GetSystemOSID();
-  virtual int  InitializeCDPlayer();
   virtual void PlayVideo(const char* name, int skip, int flags);
   virtual void PostAllegroInit(bool windowed);
   virtual void PostAllegroExit();
   virtual void ReplaceSpecialPaths(const char *sourcePath, char *destPath);
   virtual int  RunSetup();
   virtual void SetGameWindowIcon();
-  virtual void ShutdownCDPlayer();
   virtual void WriteConsole(const char*, ...);
   virtual void WriteDebugString(const char*, ...);
   virtual void DisplaySwitchOut() ;
@@ -578,10 +575,6 @@ void AGSWin32::DisplaySwitchIn() {
   dxmedia_resume_video();
 }
 
-int AGSWin32::CDPlayerCommand(int cmdd, int datt) {
-  return cd_player_control(cmdd, datt);
-}
-
 void AGSWin32::DisplayAlert(const char *text, ...) {
   char displbuf[2500];
   va_list ap;
@@ -637,10 +630,6 @@ const char* AGSWin32::GetNoMouseErrorString() {
 
 eScriptSystemOSID AGSWin32::GetSystemOSID() {
   return eOS_Win;
-}
-
-int AGSWin32::InitializeCDPlayer() {
-  return cd_player_init();
 }
 
 void AGSWin32::PlayVideo(const char *name, int skip, int flags) {
@@ -726,10 +715,6 @@ void AGSWin32::WriteDebugString(const char* texx, ...) {
   strcat(displbuf, "\n");
 
   OutputDebugString(displbuf);
-}
-
-void AGSWin32::ShutdownCDPlayer() {
-  cd_exit();
 }
 
 void AGSWin32::ReadPluginsFromDisk(FILE *iii) {

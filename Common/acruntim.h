@@ -775,10 +775,6 @@ struct AGSPlatformDriver {
   virtual void UnRegisterGameWithGameExplorer();
   virtual int  ConvertKeycodeToScanCode(int keyCode);
 
-  virtual int  InitializeCDPlayer() = 0;  // return 0 on success
-  virtual int  CDPlayerCommand(int cmdd, int datt) = 0;
-  virtual void ShutdownCDPlayer() = 0;
-
   virtual void ReadPluginsFromDisk(FILE *);
   virtual void StartPlugins();
   virtual int  RunPluginHooks(int event, int data);
